@@ -7,7 +7,7 @@ import org.springframework.jms.support.converter.MessageConverter;
 import org.springframework.jms.support.converter.MessageType;
 
 @Configuration
-public class VoucherJmsMessageConverter {
+public class JmsMessageConverter {
 	
 	@Bean // Serialize message content to json using TextMessage
     public MessageConverter jacksonJmsMessageConverter() {
