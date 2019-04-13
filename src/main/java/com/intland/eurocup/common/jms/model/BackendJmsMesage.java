@@ -8,7 +8,8 @@ import lombok.ToString;
 
 @Getter @Setter @ToString
 public class BackendJmsMesage {
+	private Long requestId;
 	private String voucher;
 	private String email;
-	private DrawResult drawResultMessage;
+	private DrawResult drawResult;
 }
